@@ -43,6 +43,7 @@ function deleteShortcutButton(button) {
     numShortcuts--;
     updateShortcutNumbers();
   }
+  return true;
 }
 
 function updateShortcutNumbers() {
