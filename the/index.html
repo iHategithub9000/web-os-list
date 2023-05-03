@@ -1,4 +1,15 @@
 <script src='alerts.js'></script>
 <script src='console.js'></script>
 <link rel="stylesheet" href="style.css">
-<div id = "console"><textarea id="consoletext"></textarea><br><textarea readonly id="cout"></textarea><br><button id = "caccept">Run JS</button></div>
+<textarea id="code" name="code" rows="10" cols="50"></textarea><br>
+<button onclick="runCode()">Run Code</button><br>
+
+<textarea id="output" name="output" rows="10" cols="50" readonly></textarea><br>
+
+<script>
+  function runCode() {
+    var code = document.getElementById("code").value;
+    var output = eval(code);
+    document.getElementById("output").value = output;
+  }
+</script>

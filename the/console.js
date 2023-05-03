@@ -1,9 +1,8 @@
+var runCode;
 document.addEventListener("DOMContentLoaded", function() {
-  let ct = document.getElementById("consoletext");
-  let co = document.getElementById("cout");
-  let ca = document.getElementById("caccept");
-
-  ca.addEventListener("click", () => {
-    co.innerText = "Output:\n" + eval(ct.innerText);
-  });
+  runCode = function() {
+    var code = document.getElementById("code").value;
+    var output = eval(code);
+    document.getElementById("output").value = output;
+  }
 });
