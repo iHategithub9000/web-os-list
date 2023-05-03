@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", function() {
   co = document.getElementById("cout")
   ca = document.getElementById("caccept")
 
-  ca.addEventListener("click",()=>{co.text = "Output:\n"+eval(ct.text.trim())});
+  ca.addEventListener("click",()=>{co.text = "Output:\n"+eval(ct.text)});
 })
