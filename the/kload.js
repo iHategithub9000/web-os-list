@@ -6,7 +6,7 @@ console.group("[DOMLOAD]")
 console.log("Adding event listener DOMContentLoaded")
 document.addEventListener("DOMContentLoaded", function() {
   console.log("DOM content has been loaded.")
-  console.ungroup()
+  console.groupEnd()
   console.log("Assigning function to runCode in DOMContentLoaded event.")
   runCode = function() {
     var code = document.getElementById("code").value;
@@ -17,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
   console.log("Initiating alerts")
   webofs.kload.init_alerts()
   console.log("Alerts initiated")
-  console.ungroup()
-  console.ungroup()
+  console.groupEnd()
+  console.groupEnd()
 });
