@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-  ct = document.getElementById("consoletext")
-  co = document.getElementById("cout")
-  ca = document.getElementById("caccept")
+  let ct = document.getElementById("consoletext");
+  let co = document.getElementById("cout");
+  let ca = document.getElementById("caccept");
 
-  ca.addEventListener("click",()=>{co.text = "Output:\n"+eval(ct.text)});
-})
+  ca.addEventListener("click", () => {
+    co.innerText = "Output:\n" + eval(ct.innerText);
+  });
+});
