@@ -43,5 +43,9 @@ webofs.FS = {
 
   rm: function (filepath) {
     this.storage.removeItem(filepath);
+  },
+  
+  format: function() {
+    localStorage.removeItem(this.rootDirName);
   }
 };
