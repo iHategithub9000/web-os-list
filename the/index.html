@@ -1,15 +1,6 @@
 <script src='alerts.js'></script>
-<script src='console.js'></script>
+<script src='kload.js'></script>
 <link rel="stylesheet" href="style.css">
-<textarea id="code" name="code" rows="10" cols="50"></textarea><br>
-<button onclick="runCode()">Run Code</button><br>
-
-<textarea id="output" name="output" rows="10" cols="50" readonly></textarea><br>
-
-<script>
-  function runCode() {
-    var code = document.getElementById("code").value;
-    var output = eval(code);
-    document.getElementById("output").value = output;
-  }
-</script>
+<textarea id="code" name="code" rows="5" cols="10"></textarea><br>
+<textarea id="output" name="output" rows="5" cols="10" readonly></textarea><br>
+<button onclick="runCode()">Run Code</button>
