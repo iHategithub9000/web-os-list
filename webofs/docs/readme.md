@@ -20,6 +20,8 @@ and for a directory named `dir` inside `directory` do `listfiles("/dir/directory
 ## nerd zone
 if you are developing web os and want to use my FS
 you can use `opensrcfs.js`
+the filesystem object will be `FS`
+if you want, move it to you api object with `yourapiobject.FS = FS;FS=null;`
 
 [function]: https://www.w3schools.com/js/js_functions.asp
 [object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects
