@@ -1,5 +1,23 @@
-
-
-.taskbar button {
-  margin-left: 10px;
+button {
+  border: none;
+  background-color: darkgrey;
+  border-radius: 100px;
+  color: white;
+  font: 1.3rem Inconsolata, monospace;
 }
+button:active {
+  background-color: lightgrey;
+  color: black;
+}
+textarea {
+  border: none;
+  font: 1.3rem Inconsolata, monospace;
+  background-color:black;
+  color: white;
+  width: 999999999px;
+  height: 29px;
+}
+body {
+  background-color:black;
+}
+* {user-select: none;}
