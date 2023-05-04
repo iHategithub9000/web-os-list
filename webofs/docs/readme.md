@@ -17,6 +17,10 @@ and for a directory named `dir` inside `directory` do `listfiles("/dir/directory
 - - `rmdir(path)` [*(function)*][function] - Remove a directory.
 - `HtmlAlert(title,alert,cb_onclose)` [*(constructor)*][constructor] - Makes an Alert box. Use the `display()` function of the object it constructs to display the Alert box. Make sure to not use the function when the Alert box is open, it will cause the "old" Alert box to become frozen. 
 
+## nerd zone
+if you are developing web os and want to use my FS
+you can use `opensrcfs.js`
+
 [function]: https://www.w3schools.com/js/js_functions.asp
 [object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects
 [constructor]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor
