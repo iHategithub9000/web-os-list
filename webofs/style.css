@@ -14,8 +14,8 @@ textarea {
   font: 1.3rem Inconsolata, monospace;
   background-color:black;
   color: white;
-  width: 999999999px;
-  height: 29px;
+  width: 100%
+  height: 10%;
 }
 body {
   background-color:black;
